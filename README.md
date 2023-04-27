@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 Rescue the Earth page <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 It is a calculater has been created by React
 
