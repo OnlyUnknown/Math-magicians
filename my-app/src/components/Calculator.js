@@ -2,23 +2,24 @@ import React from "react";
 
 function Calculator() {
     return (
-        <div>
+        <div className="box">
         <Screen />
- 
         <Numbers />
-        <Arthitics />
         </div>
     )
 }
 
 function Screen() {
-    return <div>0</div>
+    return <div className="screen">0</div>
 }
 
 const Numbers = () => {
     return(
-        <div>
-                   <Toparth />
+        <div className="flex-N">
+        <div className="Numbers">
+         <button>AC</button>
+        <button>+/-</button>
+        <button>%</button>
     <button>1</button>
     <button>2</button>
     <button>3</button>
@@ -28,17 +29,20 @@ const Numbers = () => {
     <button>7</button>
     <button>8</button>
     <button>9</button>
-    <div>
-        <button>0</button>
+    <button className="Zewo">0</button>
         <button>.</button>
+        </div>
+    <div>
+        <Arthitics/>
     </div>
+    
     </div>
     )
 }
 
 const Arthitics = () => {
     return(
-        <div>
+        <div className="arghitics">
             <button>/</button>
             <button>X</button>
             <button>-</button>
@@ -48,14 +52,7 @@ const Arthitics = () => {
     )
 }
 
-const Toparth = () => {
-    return (<div>
-        <button>AC</button>
-        <button>+/-</button>
-        <button>%</button>
-    </div>
-    )
-}
+
 
 export default Calculator
 
