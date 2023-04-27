@@ -1,0 +1,50 @@
+
+.box {
+  color: #05f;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 320px;
+}
+
+.screen {
+  text-align: end;
+  background-color: rgb(137, 134, 134);
+  width: 265px;
+  padding-right: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: aliceblue;
+}
+
+.Numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 320px;
+}
+
+.Numbers button {
+  width: 66.5px;
+}
+
+.arghitics {
+  display: flex;
+  flex-direction: column;
+  width: 66px;
+}
+
+.flex-N {
+  display: flex;
+  flex-direction: row;
+}
+
+.arghitics button {
+  height: 64px;
+  background-color: orange;
+}
+
+.Zewo {
+  flex-grow: 2;
+}
