@@ -10,9 +10,12 @@
 
 .screen{
   text-align: end;
-  background-color: rgb(243, 239, 239);
-  width: 268px;
-padding: 20px;
+  background-color: rgb(137, 134, 134);
+  width: 265px;
+  padding-right: 2px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: aliceblue;
 }
 
 .Numbers {
@@ -43,6 +46,7 @@ flex-direction: row;
 }
 .arghitics button {
   height: 64px;
+  background-color: orange;
 }
 
 .Zewo{
