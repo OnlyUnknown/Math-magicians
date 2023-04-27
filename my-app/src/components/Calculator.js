@@ -1,58 +1,52 @@
-import React from "react";
+import React from 'react';
 
 function Calculator() {
-    return (
-        <div className="box">
-        <Screen />
-        <Numbers />
-        </div>
-    )
+  return (
+    <div className="box">
+      <Screen />
+      <Numbers />
+    </div>
+  );
 }
 
 function Screen() {
-    return <div className="screen">0</div>
+  return <div className="screen">0</div>;
 }
 
-const Numbers = () => {
-    return(
-        <div className="flex-N">
-        <div className="Numbers">
-         <button>AC</button>
-        <button>+/-</button>
-        <button>%</button>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button className="Zewo">0</button>
-        <button>.</button>
-        </div>
+const Numbers = () => (
+  <div className="flex-N">
+    <div className="Numbers">
+      <button type="button">AC</button>
+      <button type="button">%</button>
+      <button type="button">+/-</button>
+      <button type="button">%</button>
+      <button type="button">1</button>
+      <button type="button">2</button>
+      <button type="button">3</button>
+      <button type="button">4</button>
+      <button type="button">5</button>
+      <button type="button">6</button>
+      <button type="button">7</button>
+      <button type="button">8</button>
+      <button type="button">9</button>
+      <button type="button" className="Zewo">0</button>
+      <button type="button">.</button>
+    </div>
     <div>
-        <Arthitics/>
+      <Arthitics />
     </div>
-    
-    </div>
-    )
-}
 
-const Arthitics = () => {
-    return(
-        <div className="arghitics">
-            <button>/</button>
-            <button>X</button>
-            <button>-</button>
-            <button>+</button>
-            <button>=</button>
-        </div>
-    )
-}
+  </div>
+);
 
+const Arthitics = () => (
+  <div className="arghitics">
+    <button type="button">/</button>
+    <button type="button">X</button>
+    <button type="button">-</button>
+    <button type="button">+</button>
+    <button type="button">=</button>
+  </div>
+);
 
-
-export default Calculator
-
+export default Calculator;
