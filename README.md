@@ -87,11 +87,11 @@ It is a calculater has been created by React
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Coming soon
- -->
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+ -->
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -190,17 +190,16 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project...
--->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- ACKNOWLEDGEMENTS -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
