@@ -17,7 +17,6 @@ const Numbers = () => (
   <div className="flex-N">
     <div className="Numbers">
       <button type="button">AC</button>
-      <button type="button">%</button>
       <button type="button">+/-</button>
       <button type="button">%</button>
       <button type="button">1</button>
