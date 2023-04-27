@@ -40,7 +40,7 @@ const Numbers = () => (
 
 const Arthitics = () => (
   <div className="arghitics">
-    <button type="button">/</button>
+    <button type="button">÷</button>
     <button type="button">X</button>
     <button type="button">-</button>
     <button type="button">+</button>
