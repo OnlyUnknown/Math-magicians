@@ -96,6 +96,45 @@ Coming soon
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- git version 2.38.x
+- node.js version > 12.x
+- IDE
+- browser (chrome, firefox, edge, safari)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git https://github.com/OnlyUnknown/Math-magicians.git
+```
+
+
+### Install
+
+Install this project with:
+
+```sh
+  cd my-project
+  node install
+```
+
+### Usage
+
+To run the project, execute the following command:
+npm start
+
+<!--
+```sh
+  rails server
+```
+-->
 
 
 ### Prerequisites
