@@ -82,7 +82,7 @@ It is a calculater has been created by React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -91,6 +91,7 @@ Coming soon
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- GETTING STARTED -->
 
@@ -234,11 +235,6 @@ If you like this project...
 
 <!-- ACKNOWLEDGEMENTS -->
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
