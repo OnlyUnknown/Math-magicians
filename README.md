@@ -82,12 +82,12 @@ It is a calculater has been created by React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Coming soon
-
+ -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -185,11 +185,12 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+<!-- SUPPORT 
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project...
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
