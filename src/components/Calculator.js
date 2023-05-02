@@ -1,51 +1,82 @@
-import React from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
+import calculate from '../logic/calculate';
 
 function Calculator() {
   return (
     <div className="box">
-      <Screen />
       <Numbers />
     </div>
   );
 }
 
-function Screen() {
-  return <div className="screen">0</div>;
-}
 
-const Numbers = () => (
+
+// ButtonName.propTypes = { input: PropTypes.string.isRequired };
+// ButtonName.propTypes = { styl: PropTypes.string.isRequired };
+
+const Numbers = () => {
+  const [calcData, setCalcData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+  const displayValue = calcData.next || calcData.total || '0';
+  const handleClick = (buttonName) => {
+    const newData = calculate(calcData, buttonName);
+    setCalcData(newData);
+  };
+  const ButtonName = (props) => {
+    
+  
+    const { styl, input } = props;
+    return (
+      <button onClick={() => handleClick(input)} className={styl} type="button">
+        {input}
+      </button>
+    );
+    
+  };
+  function Screen() {
+    return <div className="screen">{displayValue}</div>;
+  }
+  
+
+  return (
+  <>  
+  <Screen/>
   <div className="flex-N">
     <div className="Numbers">
-      <button type="button">AC</button>
-      <button type="button">+/-</button>
-      <button type="button">%</button>
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
-      <button type="button">4</button>
-      <button type="button">5</button>
-      <button type="button">6</button>
-      <button type="button">7</button>
-      <button type="button">8</button>
-      <button type="button">9</button>
-      <button type="button" className="Zewo">0</button>
-      <button type="button">.</button>
+      <ButtonName input="AC" />
+      <ButtonName input="+/-" />
+      <ButtonName input="%" />
+      <ButtonName input="1" />
+      <ButtonName input="2" />
+      <ButtonName input="3" />
+      <ButtonName input="4" />
+      <ButtonName input="5" />
+      <ButtonName input="6" />
+      <ButtonName input="7" />
+      <ButtonName input="8" />
+      <ButtonName input="9" />
+      <ButtonName input="0" styl="Zewo" />
+      <ButtonName input="." />
     </div>
     <div>
-      <Arthitics />
+    <div className="arghitics">
+        <ButtonName input="÷" />
+        <ButtonName input="x" />
+        <ButtonName input="-" />
+        <ButtonName input="+" />
+        <ButtonName input="=" />
+      </div>
     </div>
 
   </div>
-);
+  </>
+)
+};
 
-const Arthitics = () => (
-  <div className="arghitics">
-    <button type="button">÷</button>
-    <button type="button">X</button>
-    <button type="button">-</button>
-    <button type="button">+</button>
-    <button type="button">=</button>
-  </div>
-);
+
 
 export default Calculator;
