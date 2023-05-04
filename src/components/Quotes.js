@@ -16,9 +16,8 @@ function Quote() {
         },  
         })
         const json = await res.json();
-        setData(json);
-        console.log(json)
-        
+        setData(json[0].quote);
+
       } catch (error) {
         setHasError(true);
       }
@@ -30,10 +29,10 @@ function Quote() {
   if (hasError) return <div>Something went wrong!</div>;
 
   if (isLoading) return <div>Loading...</div>;
-  
+  console.log(data)
   return (
     <div>
-      
+      {data}
     </div>
     
   );
