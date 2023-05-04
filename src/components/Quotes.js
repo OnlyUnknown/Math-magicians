@@ -26,12 +26,12 @@ function Quote() {
     fetchData();
   }, [setData, setIsLoading]);
   
-  if (hasError) return <div>Something went wrong!</div>;
+  if (hasError) return <div className='quote'>Something went wrong!</div>;
 
-  if (isLoading) return <div>Loading...</div>;
-  console.log(data)
+  if (isLoading) return <div className='quote'>Loading...</div>;
+
   return (
-    <div>
+    <div className='quote'>
       {data}
     </div>
     
