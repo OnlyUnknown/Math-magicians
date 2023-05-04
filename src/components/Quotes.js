@@ -10,14 +10,13 @@ function Quote() {
       setIsLoading(true);
       try {
         const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=morning', {
-        method: "GET",  
-        headers: {
-            'X-Api-Key':'1kuDh9s2SvS9/YZwS9j9Sg==XS3Yu1Ys0bqEGtIs'
-        },  
-        })
+          method: 'GET',
+          headers: {
+            'X-Api-Key': '1kuDh9s2SvS9/YZwS9j9Sg==XS3Yu1Ys0bqEGtIs',
+          },
+        });
         const json = await res.json();
         setData(json[0].quote);
-
       } catch (error) {
         setHasError(true);
       }
@@ -25,16 +24,16 @@ function Quote() {
     };
     fetchData();
   }, [setData, setIsLoading]);
-  
-  if (hasError) return <div className='quote'>Something went wrong!</div>;
 
-  if (isLoading) return <div className='quote'>Loading...</div>;
+  if (hasError) return <div className="quote">Something went wrong!</div>;
+
+  if (isLoading) return <div className="quote">Loading...</div>;
 
   return (
-    <div className='quote'>
+    <div className="quote">
       {data}
     </div>
-    
+
   );
 }
 
