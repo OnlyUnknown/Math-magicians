@@ -1,3 +1,7 @@
+body{
+  background-color: antiquewhite;
+}
+
 
 .box {
   color: #05f;
@@ -58,4 +62,46 @@
   width: 400px;
   border-radius: 10px;
   padding: 5px;
+}
+
+.Nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  align-content: normal;
+  margin-top: -80px;
+  padding-right: 30px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.Nav ul a:visited {
+  color: #05f;
+}
+
+.Nav ul a:active {
+  color: rgb(255, 0, 0);
+}
+
+.Nav ul a {
+  text-decoration: none;
+}
+
+.Math {
+  font-size: 50px;
+}
+
+.MC {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding-left: 30px;
+}
+
+.HM {
+  font-size: 30px;
+}
+
+.MM {
+  font-size: large;
 }

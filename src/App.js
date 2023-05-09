@@ -8,13 +8,18 @@ import About from './components/About';
 function App() {
   return (
     <>
-    <nav>
-      <li><Link to="/About">About</Link></li>
-      <li><Link to="/calculator">Calculator</Link></li>
+    <h1 className='Math'>
+      Math Magicians
+    </h1>
+    <nav className='Nav'>
+      <ul>
+      <li><Link to="/">About</Link> |&nbsp; </li>
+      <li><Link to="/calculator">Calculator</Link> |&nbsp; </li>
       <li><Link to="/quote">Quotes</Link></li>
+      </ul>
     </nav>
     <Routes>
-    <Route path='/About' element={<About/>}/>
+    <Route path='/' element={<About/>}/>
       <Route path='/calculator' element={<Calculator/>}/>
       <Route path='/quote' element ={<Quote />} />
       </Routes>
