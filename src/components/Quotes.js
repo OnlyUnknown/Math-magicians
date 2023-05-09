@@ -32,7 +32,10 @@ function Quote() {
   return (
     <div className="quote">
       {data.quote}
-      <p>-{data.author}</p>
+      <p>
+        -
+        {data.author}
+      </p>
     </div>
 
   );

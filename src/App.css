@@ -1,7 +1,6 @@
-body{
+body {
   background-color: antiquewhite;
 }
-
 
 .box {
   color: #05f;
@@ -79,16 +78,16 @@ body{
   padding-bottom: 20px;
 }
 
+.Nav ul a {
+  text-decoration: none;
+}
+
 .Nav ul a:visited {
   color: #05f;
 }
 
 .Nav ul a:active {
   color: rgb(255, 0, 0);
-}
-
-.Nav ul a {
-  text-decoration: none;
 }
 
 .Math {
