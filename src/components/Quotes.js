@@ -16,7 +16,7 @@ function Quote() {
           },
         });
         const json = await res.json();
-        setData(json[0].quote);
+        setData(json[0]);
       } catch (error) {
         setHasError(true);
       }
@@ -31,7 +31,8 @@ function Quote() {
 
   return (
     <div className="quote">
-      {data}
+      {data.quote}
+      <p>-{data.author}</p>
     </div>
 
   );
