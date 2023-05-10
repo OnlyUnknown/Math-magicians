@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculate.js File Testing renders correctly 1`] = `
+<div
+  className="quote"
+  data-testid="QuoteContent"
+>
+  <p>
+    -
+  </p>
+</div>
+`;

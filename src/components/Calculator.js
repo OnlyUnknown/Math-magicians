@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 
 function Calculator() {
   return (
-    <div>
+    <div data-testid="CalcContent">
       <h3 className="MathM">Let&lsquo;s do some math</h3>
       <div className="box">
         <Numbers />

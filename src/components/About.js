@@ -1,7 +1,7 @@
 import '../App.css';
 
 const About = () => (
-  <div className="MC">
+  <div data-testid="AboutContent" className="MC">
     <h3 className="HM">Welcome to the page</h3>
     <p className="MM">
       The page is based on React and React Routes And it is Single Page
