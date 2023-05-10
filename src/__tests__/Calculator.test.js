@@ -3,6 +3,5 @@ import Calculator from '../components/Calculator';
 
 test('renders correctly', () => {
   const tree = renderer.create(<Calculator />).toJSON();
-    console.log (tree)
   expect(tree).toMatchSnapshot();
-})
+});

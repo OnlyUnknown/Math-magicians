@@ -1,4 +1,4 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
 describe('Calculate.js File Testing', () => {
   test('Should be remove by pressing on AC', () => {
@@ -7,11 +7,11 @@ describe('Calculate.js File Testing', () => {
       next: 10,
       operation: '+',
     };
-    const buttonName = "0";
+    const buttonName = '0';
     const finalResult = {
       total: 20,
-      next: "100",
-      operation: "+",
+      next: '100',
+      operation: '+',
     };
 
     const result = calculate(obj, buttonName);
@@ -24,7 +24,7 @@ describe('Calculate.js File Testing', () => {
       next: 10,
       operation: '+',
     };
-    const buttonName = "AC";
+    const buttonName = 'AC';
     const finalResult = {
       total: null,
       next: null,
@@ -34,5 +34,4 @@ describe('Calculate.js File Testing', () => {
     const result = calculate(obj, buttonName);
     expect(result).toEqual(finalResult);
   });
-
 });
