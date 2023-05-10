@@ -25,12 +25,12 @@ function Quote() {
     fetchData();
   }, [setData, setIsLoading]);
 
-  if (hasError) return <div className="quote">Something went wrong!</div>;
+  if (hasError) return <div data-testid={"QuoteContent"} className="quote">Something went wrong!</div>;
 
-  if (isLoading) return <div className="quote">Loading...</div>;
+  if (isLoading) return <div data-testid={"QuoteContent"} className="quote">Loading...</div>;
 
   return (
-    <div className="quote">
+    <div data-testid={"QuoteContent"} className="quote">
       {data.quote}
       <p>
         -

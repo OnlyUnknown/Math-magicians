@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-<div>
+exports[`Calculate.js File Testing renders correctly 1`] = `
+<div
+  data-testid="CalcContent"
+>
   <h3
     className="MathM"
   >
