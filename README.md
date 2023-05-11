@@ -82,7 +82,7 @@ It is a calculater has been created by React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO 
+LIVE DEMO 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -92,7 +92,7 @@ It is a calculater has been created by React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--->
+
 
 <!-- GETTING STARTED -->
 
