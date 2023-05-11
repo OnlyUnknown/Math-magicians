@@ -86,7 +86,7 @@ It is a calculater has been created by React
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon
+[Live view](https://math-magician-abdullah-render.onrender.com)
 
 
 
