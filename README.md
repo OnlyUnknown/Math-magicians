@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-It is a calculater has been created by React
+The page is based on React and React Routes And it is Single Page Application(SPA) and it has three pages which has a About, Calculato, and Quotes[API] pages, you can press in the Navigation bar to chang the page content.
 
 
 ## 🛠 Built With <a name="built-with"></a>
